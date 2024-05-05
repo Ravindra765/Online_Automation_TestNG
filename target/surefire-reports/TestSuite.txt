@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 1, Time elapsed: 142.341 s <<< FAILURE! - in TestSuite
+loginErrorValidation(AutomationTesting.tests.ErrorValidationsTest)  Time elapsed: 29.459 s  <<< FAILURE!
+java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrect email or password]
+	at AutomationTesting.tests.ErrorValidationsTest.loginErrorValidation(ErrorValidationsTest.java:19)
+
+orderHistory(AutomationTesting.tests.SubmitOrderTest)  Time elapsed: 0.954 s  <<< FAILURE!
+java.lang.NullPointerException
+	at AutomationTesting.tests.SubmitOrderTest.orderHistory(SubmitOrderTest.java:56)
+
